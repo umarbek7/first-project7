@@ -10,3 +10,15 @@ function add() {
     const result = Number(number1.value) + Number(number2.value);
     p1.innerHTML = result;
 }
+function add1() {
+    const result = Number(number1.value) - Number(number2.value);
+    p1.innerHTML = result;
+}
+function add2() {
+    const result = Number(number1.value) * Number(number2.value);
+    p1.innerHTML = result;
+}
+function add3() {
+    const result = Number(number1.value) / Number(number2.value);
+    p1.innerHTML = result;
+}
